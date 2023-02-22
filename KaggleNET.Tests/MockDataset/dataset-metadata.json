@@ -1,0 +1,26 @@
+{
+   "title":"INSERT_DATASET_TITLE",
+   "id":"INSERT_OWNER_SLUG/INSERT_DATASET_SLUG",
+   "licenses":[
+      {
+         "name":"CC0-1.0"
+      }
+   ],
+   "subtitle":"Hello world! My name is Pet and I'm a hobbyist programmer. Here's a dataset",
+   "description":"My description2",
+   "isPrivate":true,
+   "keywords":[
+      "beginner"
+   ],
+   "data":[{
+      "subtitle":"Hello world! My name is Pet and I'm a hobbyist programmer. Here's a dataset",
+      "description":"My description2",
+      "isPrivate":true
+   }],
+   "collaborators":[
+      {
+         "username":"INSERT_OWNER_SLUG",
+         "role":"writer"
+      }
+   ]
+}
