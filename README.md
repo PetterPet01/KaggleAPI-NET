@@ -8,6 +8,9 @@
   </a>
 </h1>
 
+[![License](https://img.shields.io/github/license/PetterPet01/KaggleAPI-NET?style=flat-square)](./LICENSE)
+[![KaggleAPI.Web NuGET](https://img.shields.io/nuget/vpre/KaggleAPI.Web?label=KaggleAPI.Web&style=flat-square)](https://www.nuget.org/packages/KaggleAPI.Web/)
+
 KaggleAPI-NET provides an easy to use .NET Standard API client for [Kaggle API](https://github.com/Kaggle/kaggle-api). It aims to expose the complete Kaggle API in native C#, which allows .NET developers to programmatically interact with available Kaggle API services using the cross-platform .NET Standard specification.
 
 KaggleAPI-NET is [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0)-licensed, so personal and commmercial use alike is allowed. For further details, see the [LICENSE](LICENSE) file.
