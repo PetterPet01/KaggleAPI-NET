@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KaggleAPI.Web", "KaggleNET.API\KaggleAPI.Web.csproj", "{C0259C37-16E7-4D83-B1C1-820A84F11588}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KaggleAPI.Web", "KaggleAPI.Web\KaggleAPI.Web.csproj", "{C0259C37-16E7-4D83-B1C1-820A84F11588}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KaggleAPI.Tests", "KaggleNET.Tests\KaggleAPI.Tests.csproj", "{59FE034F-F628-4551-A66A-6087E54E2CB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KaggleAPI.Tests", "KaggleAPI.Tests\KaggleAPI.Tests.csproj", "{59FE034F-F628-4551-A66A-6087E54E2CB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

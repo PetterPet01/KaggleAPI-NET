@@ -26,10 +26,6 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\KaggleNET.API\KaggleAPI.Web.csproj" />
-  </ItemGroup>
-
 	<ItemGroup>
 		<None Update="MockAuthentication\**">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -46,6 +42,10 @@
 		<Content Include="MockKernel\**">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\KaggleAPI.Web\KaggleAPI.Web.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
