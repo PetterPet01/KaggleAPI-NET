@@ -15,7 +15,7 @@ We won't cover every possible configuration in this part, head over to the speci
 
 ## HttpClient Notes
 
-One important part of the configuration is the used `HttpClient`. By default, every time a `KaggleClient` is instantiated, a new `HttpClient` is created in the background. For Web Applications that require a lot of different clients due to user based access tokens, it is **not** advised to create a new `HttpClient` from scratch with every HTTP call. Instead, a default (static) `HttpClient` should be used to create a new `KaggleClient` with a new access token.
+One important part of the configuration is the used `HttpClient`. By default, every time `Authenticate()` is called on `KaggleClient`, a new `HttpClient` is created in the background. For Web Applications that require a lot of different clients due to user based access tokens, it is **not** advised to create a new `HttpClient` from scratch with every HTTP call. Instead, a default (static) `HttpClient` should be used to create a new `KaggleClient` with a new access token.
 
 Consider the following HTTP Endpoint:
 

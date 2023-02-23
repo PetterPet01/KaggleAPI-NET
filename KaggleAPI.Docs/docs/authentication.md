@@ -11,7 +11,7 @@ By default, the `method` parameter is set to `AuthenticationMethod.Auto`. Intern
 
 ```mermaid
 flowchart TD
-    subgraph E[AuthenticationMethod.All]
+    subgraph E[AuthenticationMethod.Auto]
     A[AuthenticationMethod.Direct]-->B[AuthenticationMethod.File];
     B-->C[AuthenticationMethod.Environment];
     C-->D[AuthenticationMethod.User];
@@ -61,8 +61,8 @@ to get the username and key
 
 ```csharp
 // Assign the environment variable at some place
-Environment.SetEnvironmentVariable("KAGGLE_USERNAME", MockUsername);
-Environment.SetEnvironmentVariable("KAGGLE_KEY", MockKey);
+Environment.SetEnvironmentVariable("KAGGLE_USERNAME", "YourUsername");
+Environment.SetEnvironmentVariable("KAGGLE_KEY", "YourKey");
 
 var api = new KaggleClient();
 AuthenticationMethod method = api.Authenticate(method: AuthenticationMethod.Environment);

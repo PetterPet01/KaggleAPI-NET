@@ -12,7 +12,7 @@ var api = new KaggleClient(new YourLogger());
 api.Authenticate(config, method: AuthenticationMethod.Direct);
 ```
 
-The `IKaggleInformationLogger` interface can be found [here](https://github.com/PetterPet01/KagglAPI-NET/blob/master/KagglAPI.Web/Interfaces/IKaggleInformationLogger.cs).
+The `IKaggleInformationLogger` interface can be found [here](https://github.com/PetterPet01/KaggleAPI-NET/blob/main/KaggleAPI.Web/Interfaces/IKaggleInformationLogger.cs).
 
 ## ConsoleLogger
 

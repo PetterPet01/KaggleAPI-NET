@@ -14,6 +14,6 @@ KaggleAPI-NET provides an easy to use .NET Standard API client for [Kaggle API](
   * `UWP`
   * `.NET Core`
   * `Xamarin.Forms`
-* ✅ Allow full control of one's `HTTPClient`, thereby maximizing flexibility!
+* ✅ Allow full control of one's `HTTPClient`, thereby maximizing flexibility
 * ✅ Logging supported
 * ✅ Complete unit testing for all functionalities <sup>*\*Not well-developed yet\**</sup>
