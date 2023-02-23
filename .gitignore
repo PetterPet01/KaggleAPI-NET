@@ -361,3 +361,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+KaggleAPI.Docs/build/
+
+KaggleAPI.Docs/node_modules
+
+KaggleAPI.Docs/.docusaurus

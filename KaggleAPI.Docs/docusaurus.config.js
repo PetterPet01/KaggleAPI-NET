@@ -46,7 +46,7 @@ const config = {
         docs: {
           sidebarCollapsible: true,
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/PetterPet01/KaggleAPI-NET/edit/master/KaggleAPI.Docs/',
+          editUrl: 'https://github.com/PetterPet01/KaggleAPI-NET/edit/main/KaggleAPI.Docs/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           lastVersion: 'current',
